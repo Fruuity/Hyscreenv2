@@ -114,8 +114,14 @@ def run(resumes):
 	});
 	pd.set_option("display.max_rows", None);
 
+	pd.set_option("display.max_columns", None)
+	pd.set_option("display.width", None)              # disable wrapping
+	pd.set_option("display.max_colwidth", None)       # do not truncate individual columns
+	pd.set_option("display.expand_frame_repr", False) # avoid multi-line wrapping by columns
+
 	#Display
-	print("\n",df);
+	#print("\n",df);
+	print(df.to_string(index=False))
 
 	#df.to_csv("tfidf_output.csv", index=False)
 
@@ -143,5 +149,6 @@ def run(resumes):
 	lsa_matrix = lsa_matrix;
 	vectorizer = tfidf;
 	svd = svd;
+
 
 
