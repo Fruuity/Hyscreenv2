@@ -1,0 +1,594 @@
+﻿Candidate_001,CSR,Handles customer inquiries.,1,1,0,College Education in Communication
+Candidate_001,CSR,Responds to customer concerns swiftly.,1,1,0,College Education in Communication
+Candidate_001,CSR,Retains customers by resolving issues.,1,1,0,College Education in Communication
+Candidate_001,CSR,Addresses processes clearly.,1,1,0,College Education in Communication
+Candidate_001,CSR,Manages requests with patience and care,1,1,0,College Education in Communication
+Candidate_001,CSR,Supports confidentiality.,1,1,0,College Education in Communication
+Candidate_001,TSA,Provides basic troubleshooting,0,0,0,College Education in Technology
+Candidate_001,TSA,Assists in resolving network issues.,0,0,0,College Education in Technology
+Candidate_001,TSA,Investigates technical problems.,0,0,0,College Education in Technology
+Candidate_001,TSA,Supports software installation and configuration.,0,0,0,College Education in Technology
+Candidate_001,TSA,Diagnoses hardware-related problems,0,0,0,College Education in Technology
+Candidate_001,TSA,Acts as an expert for technology.,0,0,0,College Education in Technology
+Candidate_001,BOS,Inputs and maintains data accurately.,2,2,2,College Education in Management
+Candidate_001,BOS,Verifies and processes documents.,2,2,2,College Education in Management
+Candidate_001,BOS,Compiles and prepares reports.,2,2,2,College Education in Management
+Candidate_001,BOS,Audits records or tickets.,2,2,2,College Education in Management
+Candidate_001,BOS,Updates workforce scheduling tools.,2,2,2,College Education in Management
+Candidate_001,BOS,Organizes transactions and operations.,2,2,2,College Education in Management
+Candidate_002,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_002,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_002,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_002,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_002,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_002,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_002,TSA,Provides basic troubleshooting,2,2,2,College Education in Technology
+Candidate_002,TSA,Assists in resolving network issues.,2,2,2,College Education in Technology
+Candidate_002,TSA,Investigates technical problems.,2,2,2,College Education in Technology
+Candidate_002,TSA,Supports software installation and configuration.,2,2,2,College Education in Technology
+Candidate_002,TSA,Diagnoses hardware-related problems,2,2,2,College Education in Technology
+Candidate_002,TSA,Acts as an expert for technology.,2,2,2,College Education in Technology
+Candidate_002,BOS,Inputs and maintains data accurately.,1,1,0,College Education in Management
+Candidate_002,BOS,Verifies and processes documents.,1,1,0,College Education in Management
+Candidate_002,BOS,Compiles and prepares reports.,1,1,0,College Education in Management
+Candidate_002,BOS,Audits records or tickets.,1,1,0,College Education in Management
+Candidate_002,BOS,Updates workforce scheduling tools.,1,1,0,College Education in Management
+Candidate_002,BOS,Organizes transactions and operations.,1,1,0,College Education in Management
+Candidate_003,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_003,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_003,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_003,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_003,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_003,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_003,TSA,Provides basic troubleshooting,0,0,1,College Education in Technology
+Candidate_003,TSA,Assists in resolving network issues.,0,0,1,College Education in Technology
+Candidate_003,TSA,Investigates technical problems.,0,0,1,College Education in Technology
+Candidate_003,TSA,Supports software installation and configuration.,0,0,1,College Education in Technology
+Candidate_003,TSA,Diagnoses hardware-related problems,0,0,1,College Education in Technology
+Candidate_003,TSA,Acts as an expert for technology.,0,0,1,College Education in Technology
+Candidate_003,BOS,Inputs and maintains data accurately.,1,0,0,College Education in Management
+Candidate_003,BOS,Verifies and processes documents.,1,0,0,College Education in Management
+Candidate_003,BOS,Compiles and prepares reports.,1,0,0,College Education in Management
+Candidate_003,BOS,Audits records or tickets.,1,0,0,College Education in Management
+Candidate_003,BOS,Updates workforce scheduling tools.,1,0,0,College Education in Management
+Candidate_003,BOS,Organizes transactions and operations.,1,0,0,College Education in Management
+Candidate_004,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_004,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_004,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_004,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_004,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_004,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_004,TSA,Provides basic troubleshooting,1,1,1,College Education in Technology
+Candidate_004,TSA,Assists in resolving network issues.,1,1,1,College Education in Technology
+Candidate_004,TSA,Investigates technical problems.,1,1,1,College Education in Technology
+Candidate_004,TSA,Supports software installation and configuration.,1,1,1,College Education in Technology
+Candidate_004,TSA,Diagnoses hardware-related problems,1,1,1,College Education in Technology
+Candidate_004,TSA,Acts as an expert for technology.,1,1,1,College Education in Technology
+Candidate_004,BOS,Inputs and maintains data accurately.,0,0,0,College Education in Management
+Candidate_004,BOS,Verifies and processes documents.,0,0,0,College Education in Management
+Candidate_004,BOS,Compiles and prepares reports.,0,0,0,College Education in Management
+Candidate_004,BOS,Audits records or tickets.,0,0,0,College Education in Management
+Candidate_004,BOS,Updates workforce scheduling tools.,0,0,0,College Education in Management
+Candidate_004,BOS,Organizes transactions and operations.,0,0,0,College Education in Management
+Candidate_005,CSR,Handles customer inquiries.,1,1,0,College Education in Communication
+Candidate_005,CSR,Responds to customer concerns swiftly.,1,1,0,College Education in Communication
+Candidate_005,CSR,Retains customers by resolving issues.,1,1,0,College Education in Communication
+Candidate_005,CSR,Addresses processes clearly.,1,1,0,College Education in Communication
+Candidate_005,CSR,Manages requests with patience and care,1,1,0,College Education in Communication
+Candidate_005,CSR,Supports confidentiality.,1,1,0,College Education in Communication
+Candidate_005,TSA,Provides basic troubleshooting,2,2,2,College Education in Technology
+Candidate_005,TSA,Assists in resolving network issues.,2,2,2,College Education in Technology
+Candidate_005,TSA,Investigates technical problems.,2,2,2,College Education in Technology
+Candidate_005,TSA,Supports software installation and configuration.,2,2,2,College Education in Technology
+Candidate_005,TSA,Diagnoses hardware-related problems,2,2,2,College Education in Technology
+Candidate_005,TSA,Acts as an expert for technology.,2,2,2,College Education in Technology
+Candidate_005,BOS,Inputs and maintains data accurately.,0,0,0,College Education in Management
+Candidate_005,BOS,Verifies and processes documents.,0,0,0,College Education in Management
+Candidate_005,BOS,Compiles and prepares reports.,0,0,0,College Education in Management
+Candidate_005,BOS,Audits records or tickets.,0,0,0,College Education in Management
+Candidate_005,BOS,Updates workforce scheduling tools.,0,0,0,College Education in Management
+Candidate_005,BOS,Organizes transactions and operations.,0,0,0,College Education in Management
+Candidate_006,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_006,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_006,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_006,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_006,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_006,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_006,TSA,Provides basic troubleshooting,1,1,0,College Education in Technology
+Candidate_006,TSA,Assists in resolving network issues.,1,1,0,College Education in Technology
+Candidate_006,TSA,Investigates technical problems.,1,1,0,College Education in Technology
+Candidate_006,TSA,Supports software installation and configuration.,1,1,0,College Education in Technology
+Candidate_006,TSA,Diagnoses hardware-related problems,1,1,0,College Education in Technology
+Candidate_006,TSA,Acts as an expert for technology.,1,1,0,College Education in Technology
+Candidate_006,BOS,Inputs and maintains data accurately.,2,1,2,College Education in Management
+Candidate_006,BOS,Verifies and processes documents.,2,1,2,College Education in Management
+Candidate_006,BOS,Compiles and prepares reports.,2,1,2,College Education in Management
+Candidate_006,BOS,Audits records or tickets.,2,1,2,College Education in Management
+Candidate_006,BOS,Updates workforce scheduling tools.,2,1,2,College Education in Management
+Candidate_006,BOS,Organizes transactions and operations.,2,1,2,College Education in Management
+Candidate_007,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_007,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_007,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_007,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_007,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_007,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_007,TSA,Provides basic troubleshooting,2,2,2,College Education in Technology
+Candidate_007,TSA,Assists in resolving network issues.,2,2,2,College Education in Technology
+Candidate_007,TSA,Investigates technical problems.,2,2,2,College Education in Technology
+Candidate_007,TSA,Supports software installation and configuration.,2,2,2,College Education in Technology
+Candidate_007,TSA,Diagnoses hardware-related problems,2,2,2,College Education in Technology
+Candidate_007,TSA,Acts as an expert for technology.,2,2,2,College Education in Technology
+Candidate_007,BOS,Inputs and maintains data accurately.,2,1,2,College Education in Management
+Candidate_007,BOS,Verifies and processes documents.,2,1,2,College Education in Management
+Candidate_007,BOS,Compiles and prepares reports.,2,1,2,College Education in Management
+Candidate_007,BOS,Audits records or tickets.,2,1,2,College Education in Management
+Candidate_007,BOS,Updates workforce scheduling tools.,2,1,2,College Education in Management
+Candidate_007,BOS,Organizes transactions and operations.,2,1,2,College Education in Management
+Candidate_008,CSR,Handles customer inquiries.,1,2,1,College Education in Communication
+Candidate_008,CSR,Responds to customer concerns swiftly.,1,2,1,College Education in Communication
+Candidate_008,CSR,Retains customers by resolving issues.,1,2,1,College Education in Communication
+Candidate_008,CSR,Addresses processes clearly.,1,2,1,College Education in Communication
+Candidate_008,CSR,Manages requests with patience and care,1,2,1,College Education in Communication
+Candidate_008,CSR,Supports confidentiality.,1,2,1,College Education in Communication
+Candidate_008,TSA,Provides basic troubleshooting,0,0,0,College Education in Technology
+Candidate_008,TSA,Assists in resolving network issues.,0,0,0,College Education in Technology
+Candidate_008,TSA,Investigates technical problems.,0,0,0,College Education in Technology
+Candidate_008,TSA,Supports software installation and configuration.,0,0,0,College Education in Technology
+Candidate_008,TSA,Diagnoses hardware-related problems,0,0,0,College Education in Technology
+Candidate_008,TSA,Acts as an expert for technology.,0,0,0,College Education in Technology
+Candidate_008,BOS,Inputs and maintains data accurately.,1,1,0,College Education in Management
+Candidate_008,BOS,Verifies and processes documents.,1,1,0,College Education in Management
+Candidate_008,BOS,Compiles and prepares reports.,1,1,0,College Education in Management
+Candidate_008,BOS,Audits records or tickets.,1,1,0,College Education in Management
+Candidate_008,BOS,Updates workforce scheduling tools.,1,1,0,College Education in Management
+Candidate_008,BOS,Organizes transactions and operations.,1,1,0,College Education in Management
+Candidate_009,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_009,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_009,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_009,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_009,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_009,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_009,TSA,Provides basic troubleshooting,1,0,0,College Education in Technology
+Candidate_009,TSA,Assists in resolving network issues.,1,0,0,College Education in Technology
+Candidate_009,TSA,Investigates technical problems.,1,0,0,College Education in Technology
+Candidate_009,TSA,Supports software installation and configuration.,1,0,0,College Education in Technology
+Candidate_009,TSA,Diagnoses hardware-related problems,1,0,0,College Education in Technology
+Candidate_009,TSA,Acts as an expert for technology.,1,0,0,College Education in Technology
+Candidate_009,BOS,Inputs and maintains data accurately.,1,1,1,College Education in Management
+Candidate_009,BOS,Verifies and processes documents.,1,1,1,College Education in Management
+Candidate_009,BOS,Compiles and prepares reports.,1,1,1,College Education in Management
+Candidate_009,BOS,Audits records or tickets.,1,1,1,College Education in Management
+Candidate_009,BOS,Updates workforce scheduling tools.,1,1,1,College Education in Management
+Candidate_009,BOS,Organizes transactions and operations.,1,1,1,College Education in Management
+Candidate_010,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_010,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_010,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_010,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_010,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_010,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_010,TSA,Provides basic troubleshooting,1,1,1,College Education in Technology
+Candidate_010,TSA,Assists in resolving network issues.,1,1,1,College Education in Technology
+Candidate_010,TSA,Investigates technical problems.,1,1,1,College Education in Technology
+Candidate_010,TSA,Supports software installation and configuration.,1,1,1,College Education in Technology
+Candidate_010,TSA,Diagnoses hardware-related problems,1,1,1,College Education in Technology
+Candidate_010,TSA,Acts as an expert for technology.,1,1,1,College Education in Technology
+Candidate_010,BOS,Inputs and maintains data accurately.,0,0,0,College Education in Management
+Candidate_010,BOS,Verifies and processes documents.,0,0,0,College Education in Management
+Candidate_010,BOS,Compiles and prepares reports.,0,0,0,College Education in Management
+Candidate_010,BOS,Audits records or tickets.,0,0,0,College Education in Management
+Candidate_010,BOS,Updates workforce scheduling tools.,0,0,0,College Education in Management
+Candidate_010,BOS,Organizes transactions and operations.,0,0,0,College Education in Management
+Candidate_011,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_011,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_011,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_011,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_011,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_011,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_011,TSA,Provides basic troubleshooting,2,1,2,College Education in Technology
+Candidate_011,TSA,Assists in resolving network issues.,2,1,2,College Education in Technology
+Candidate_011,TSA,Investigates technical problems.,2,1,2,College Education in Technology
+Candidate_011,TSA,Supports software installation and configuration.,2,1,2,College Education in Technology
+Candidate_011,TSA,Diagnoses hardware-related problems,2,1,2,College Education in Technology
+Candidate_011,TSA,Acts as an expert for technology.,2,1,2,College Education in Technology
+Candidate_011,BOS,Inputs and maintains data accurately.,1,1,0,College Education in Management
+Candidate_011,BOS,Verifies and processes documents.,1,1,0,College Education in Management
+Candidate_011,BOS,Compiles and prepares reports.,1,1,0,College Education in Management
+Candidate_011,BOS,Audits records or tickets.,1,1,0,College Education in Management
+Candidate_011,BOS,Updates workforce scheduling tools.,1,1,0,College Education in Management
+Candidate_011,BOS,Organizes transactions and operations.,1,1,0,College Education in Management
+Candidate_012,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_012,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_012,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_012,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_012,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_012,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_012,TSA,Provides basic troubleshooting,0,0,0,College Education in Technology
+Candidate_012,TSA,Assists in resolving network issues.,0,0,0,College Education in Technology
+Candidate_012,TSA,Investigates technical problems.,0,0,0,College Education in Technology
+Candidate_012,TSA,Supports software installation and configuration.,0,0,0,College Education in Technology
+Candidate_012,TSA,Diagnoses hardware-related problems,0,0,0,College Education in Technology
+Candidate_012,TSA,Acts as an expert for technology.,0,0,0,College Education in Technology
+Candidate_012,BOS,Inputs and maintains data accurately.,1,0,0,College Education in Management
+Candidate_012,BOS,Verifies and processes documents.,1,0,0,College Education in Management
+Candidate_012,BOS,Compiles and prepares reports.,1,0,0,College Education in Management
+Candidate_012,BOS,Audits records or tickets.,1,0,0,College Education in Management
+Candidate_012,BOS,Updates workforce scheduling tools.,1,0,0,College Education in Management
+Candidate_012,BOS,Organizes transactions and operations.,1,0,0,College Education in Management
+Candidate_013,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_013,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_013,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_013,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_013,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_013,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_013,TSA,Provides basic troubleshooting,2,2,1,College Education in Technology
+Candidate_013,TSA,Assists in resolving network issues.,2,2,1,College Education in Technology
+Candidate_013,TSA,Investigates technical problems.,2,2,1,College Education in Technology
+Candidate_013,TSA,Supports software installation and configuration.,2,2,1,College Education in Technology
+Candidate_013,TSA,Diagnoses hardware-related problems,2,2,1,College Education in Technology
+Candidate_013,TSA,Acts as an expert for technology.,2,2,1,College Education in Technology
+Candidate_013,BOS,Inputs and maintains data accurately.,1,1,1,College Education in Management
+Candidate_013,BOS,Verifies and processes documents.,1,1,1,College Education in Management
+Candidate_013,BOS,Compiles and prepares reports.,1,1,1,College Education in Management
+Candidate_013,BOS,Audits records or tickets.,1,1,1,College Education in Management
+Candidate_013,BOS,Updates workforce scheduling tools.,1,1,1,College Education in Management
+Candidate_013,BOS,Organizes transactions and operations.,1,1,1,College Education in Management
+Candidate_014,CSR,Handles customer inquiries.,1,1,1,College Education in Communication
+Candidate_014,CSR,Responds to customer concerns swiftly.,1,1,1,College Education in Communication
+Candidate_014,CSR,Retains customers by resolving issues.,1,1,1,College Education in Communication
+Candidate_014,CSR,Addresses processes clearly.,1,1,1,College Education in Communication
+Candidate_014,CSR,Manages requests with patience and care,1,1,1,College Education in Communication
+Candidate_014,CSR,Supports confidentiality.,1,1,1,College Education in Communication
+Candidate_014,TSA,Provides basic troubleshooting,2,2,2,College Education in Technology
+Candidate_014,TSA,Assists in resolving network issues.,2,2,2,College Education in Technology
+Candidate_014,TSA,Investigates technical problems.,2,2,2,College Education in Technology
+Candidate_014,TSA,Supports software installation and configuration.,2,2,2,College Education in Technology
+Candidate_014,TSA,Diagnoses hardware-related problems,2,2,2,College Education in Technology
+Candidate_014,TSA,Acts as an expert for technology.,2,2,2,College Education in Technology
+Candidate_014,BOS,Inputs and maintains data accurately.,2,2,2,College Education in Management
+Candidate_014,BOS,Verifies and processes documents.,2,2,2,College Education in Management
+Candidate_014,BOS,Compiles and prepares reports.,2,2,2,College Education in Management
+Candidate_014,BOS,Audits records or tickets.,2,2,2,College Education in Management
+Candidate_014,BOS,Updates workforce scheduling tools.,2,2,2,College Education in Management
+Candidate_014,BOS,Organizes transactions and operations.,2,2,2,College Education in Management
+Candidate_015,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_015,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_015,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_015,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_015,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_015,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_015,TSA,Provides basic troubleshooting,0,0,0,College Education in Technology
+Candidate_015,TSA,Assists in resolving network issues.,0,0,0,College Education in Technology
+Candidate_015,TSA,Investigates technical problems.,0,0,0,College Education in Technology
+Candidate_015,TSA,Supports software installation and configuration.,0,0,0,College Education in Technology
+Candidate_015,TSA,Diagnoses hardware-related problems,0,0,0,College Education in Technology
+Candidate_015,TSA,Acts as an expert for technology.,0,0,0,College Education in Technology
+Candidate_015,BOS,Inputs and maintains data accurately.,1,1,0,College Education in Management
+Candidate_015,BOS,Verifies and processes documents.,1,1,0,College Education in Management
+Candidate_015,BOS,Compiles and prepares reports.,1,1,0,College Education in Management
+Candidate_015,BOS,Audits records or tickets.,1,1,0,College Education in Management
+Candidate_015,BOS,Updates workforce scheduling tools.,1,1,0,College Education in Management
+Candidate_015,BOS,Organizes transactions and operations.,1,1,0,College Education in Management
+Candidate_016,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_016,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_016,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_016,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_016,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_016,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_016,TSA,Provides basic troubleshooting,1,1,0,College Education in Technology
+Candidate_016,TSA,Assists in resolving network issues.,1,1,0,College Education in Technology
+Candidate_016,TSA,Investigates technical problems.,1,1,0,College Education in Technology
+Candidate_016,TSA,Supports software installation and configuration.,1,1,0,College Education in Technology
+Candidate_016,TSA,Diagnoses hardware-related problems,1,1,0,College Education in Technology
+Candidate_016,TSA,Acts as an expert for technology.,1,1,0,College Education in Technology
+Candidate_016,BOS,Inputs and maintains data accurately.,1,0,1,College Education in Management
+Candidate_016,BOS,Verifies and processes documents.,1,0,1,College Education in Management
+Candidate_016,BOS,Compiles and prepares reports.,1,0,1,College Education in Management
+Candidate_016,BOS,Audits records or tickets.,1,0,1,College Education in Management
+Candidate_016,BOS,Updates workforce scheduling tools.,1,0,1,College Education in Management
+Candidate_016,BOS,Organizes transactions and operations.,1,0,1,College Education in Management
+Candidate_017,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_017,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_017,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_017,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_017,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_017,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_017,TSA,Provides basic troubleshooting,0,0,0,College Education in Technology
+Candidate_017,TSA,Assists in resolving network issues.,0,0,0,College Education in Technology
+Candidate_017,TSA,Investigates technical problems.,0,0,0,College Education in Technology
+Candidate_017,TSA,Supports software installation and configuration.,0,0,0,College Education in Technology
+Candidate_017,TSA,Diagnoses hardware-related problems,0,0,0,College Education in Technology
+Candidate_017,TSA,Acts as an expert for technology.,0,0,0,College Education in Technology
+Candidate_017,BOS,Inputs and maintains data accurately.,1,0,1,College Education in Management
+Candidate_017,BOS,Verifies and processes documents.,1,0,1,College Education in Management
+Candidate_017,BOS,Compiles and prepares reports.,1,0,1,College Education in Management
+Candidate_017,BOS,Audits records or tickets.,1,0,1,College Education in Management
+Candidate_017,BOS,Updates workforce scheduling tools.,1,0,1,College Education in Management
+Candidate_017,BOS,Organizes transactions and operations.,1,0,1,College Education in Management
+Candidate_018,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_018,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_018,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_018,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_018,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_018,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_018,TSA,Provides basic troubleshooting,2,2,2,College Education in Technology
+Candidate_018,TSA,Assists in resolving network issues.,2,2,2,College Education in Technology
+Candidate_018,TSA,Investigates technical problems.,2,2,2,College Education in Technology
+Candidate_018,TSA,Supports software installation and configuration.,2,2,2,College Education in Technology
+Candidate_018,TSA,Diagnoses hardware-related problems,2,2,2,College Education in Technology
+Candidate_018,TSA,Acts as an expert for technology.,2,2,2,College Education in Technology
+Candidate_018,BOS,Inputs and maintains data accurately.,1,1,1,College Education in Management
+Candidate_018,BOS,Verifies and processes documents.,1,1,1,College Education in Management
+Candidate_018,BOS,Compiles and prepares reports.,1,1,1,College Education in Management
+Candidate_018,BOS,Audits records or tickets.,1,1,1,College Education in Management
+Candidate_018,BOS,Updates workforce scheduling tools.,1,1,1,College Education in Management
+Candidate_018,BOS,Organizes transactions and operations.,1,1,1,College Education in Management
+Candidate_019,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_019,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_019,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_019,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_019,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_019,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_019,TSA,Provides basic troubleshooting,2,2,2,College Education in Technology
+Candidate_019,TSA,Assists in resolving network issues.,2,2,2,College Education in Technology
+Candidate_019,TSA,Investigates technical problems.,2,2,2,College Education in Technology
+Candidate_019,TSA,Supports software installation and configuration.,2,2,2,College Education in Technology
+Candidate_019,TSA,Diagnoses hardware-related problems,2,2,2,College Education in Technology
+Candidate_019,TSA,Acts as an expert for technology.,2,2,2,College Education in Technology
+Candidate_019,BOS,Inputs and maintains data accurately.,2,2,1,College Education in Management
+Candidate_019,BOS,Verifies and processes documents.,2,2,1,College Education in Management
+Candidate_019,BOS,Compiles and prepares reports.,2,2,1,College Education in Management
+Candidate_019,BOS,Audits records or tickets.,2,2,1,College Education in Management
+Candidate_019,BOS,Updates workforce scheduling tools.,2,2,1,College Education in Management
+Candidate_019,BOS,Organizes transactions and operations.,2,2,1,College Education in Management
+Candidate_020,CSR,Handles customer inquiries.,1,1,1,College Education in Communication
+Candidate_020,CSR,Responds to customer concerns swiftly.,1,1,1,College Education in Communication
+Candidate_020,CSR,Retains customers by resolving issues.,1,1,1,College Education in Communication
+Candidate_020,CSR,Addresses processes clearly.,1,1,1,College Education in Communication
+Candidate_020,CSR,Manages requests with patience and care,1,1,1,College Education in Communication
+Candidate_020,CSR,Supports confidentiality.,1,1,1,College Education in Communication
+Candidate_020,TSA,Provides basic troubleshooting,0,0,0,College Education in Technology
+Candidate_020,TSA,Assists in resolving network issues.,0,0,0,College Education in Technology
+Candidate_020,TSA,Investigates technical problems.,0,0,0,College Education in Technology
+Candidate_020,TSA,Supports software installation and configuration.,0,0,0,College Education in Technology
+Candidate_020,TSA,Diagnoses hardware-related problems,0,0,0,College Education in Technology
+Candidate_020,TSA,Acts as an expert for technology.,0,0,0,College Education in Technology
+Candidate_020,BOS,Inputs and maintains data accurately.,2,2,1,College Education in Management
+Candidate_020,BOS,Verifies and processes documents.,2,2,1,College Education in Management
+Candidate_020,BOS,Compiles and prepares reports.,2,2,1,College Education in Management
+Candidate_020,BOS,Audits records or tickets.,2,2,1,College Education in Management
+Candidate_020,BOS,Updates workforce scheduling tools.,2,2,1,College Education in Management
+Candidate_020,BOS,Organizes transactions and operations.,2,2,1,College Education in Management
+Candidate_021,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_021,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_021,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_021,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_021,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_021,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_021,TSA,Provides basic troubleshooting,2,1,2,College Education in Technology
+Candidate_021,TSA,Assists in resolving network issues.,2,1,2,College Education in Technology
+Candidate_021,TSA,Investigates technical problems.,2,1,2,College Education in Technology
+Candidate_021,TSA,Supports software installation and configuration.,2,1,2,College Education in Technology
+Candidate_021,TSA,Diagnoses hardware-related problems,2,1,2,College Education in Technology
+Candidate_021,TSA,Acts as an expert for technology.,2,1,2,College Education in Technology
+Candidate_021,BOS,Inputs and maintains data accurately.,1,0,1,College Education in Management
+Candidate_021,BOS,Verifies and processes documents.,1,0,1,College Education in Management
+Candidate_021,BOS,Compiles and prepares reports.,1,0,1,College Education in Management
+Candidate_021,BOS,Audits records or tickets.,1,0,1,College Education in Management
+Candidate_021,BOS,Updates workforce scheduling tools.,1,0,1,College Education in Management
+Candidate_021,BOS,Organizes transactions and operations.,1,0,1,College Education in Management
+Candidate_022,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_022,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_022,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_022,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_022,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_022,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_022,TSA,Provides basic troubleshooting,2,2,2,College Education in Technology
+Candidate_022,TSA,Assists in resolving network issues.,2,2,2,College Education in Technology
+Candidate_022,TSA,Investigates technical problems.,2,2,2,College Education in Technology
+Candidate_022,TSA,Supports software installation and configuration.,2,2,2,College Education in Technology
+Candidate_022,TSA,Diagnoses hardware-related problems,2,2,2,College Education in Technology
+Candidate_022,TSA,Acts as an expert for technology.,2,2,2,College Education in Technology
+Candidate_022,BOS,Inputs and maintains data accurately.,1,2,1,College Education in Management
+Candidate_022,BOS,Verifies and processes documents.,1,2,1,College Education in Management
+Candidate_022,BOS,Compiles and prepares reports.,1,2,1,College Education in Management
+Candidate_022,BOS,Audits records or tickets.,1,2,1,College Education in Management
+Candidate_022,BOS,Updates workforce scheduling tools.,1,2,1,College Education in Management
+Candidate_022,BOS,Organizes transactions and operations.,1,2,1,College Education in Management
+Candidate_023,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_023,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_023,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_023,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_023,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_023,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_023,TSA,Provides basic troubleshooting,1,0,1,College Education in Technology
+Candidate_023,TSA,Assists in resolving network issues.,1,0,1,College Education in Technology
+Candidate_023,TSA,Investigates technical problems.,1,0,1,College Education in Technology
+Candidate_023,TSA,Supports software installation and configuration.,1,0,1,College Education in Technology
+Candidate_023,TSA,Diagnoses hardware-related problems,1,0,1,College Education in Technology
+Candidate_023,TSA,Acts as an expert for technology.,1,0,1,College Education in Technology
+Candidate_023,BOS,Inputs and maintains data accurately.,2,1,2,College Education in Management
+Candidate_023,BOS,Verifies and processes documents.,2,1,2,College Education in Management
+Candidate_023,BOS,Compiles and prepares reports.,2,1,2,College Education in Management
+Candidate_023,BOS,Audits records or tickets.,2,1,2,College Education in Management
+Candidate_023,BOS,Updates workforce scheduling tools.,2,1,2,College Education in Management
+Candidate_023,BOS,Organizes transactions and operations.,2,1,2,College Education in Management
+Candidate_024,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_024,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_024,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_024,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_024,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_024,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_024,TSA,Provides basic troubleshooting,0,0,1,College Education in Technology
+Candidate_024,TSA,Assists in resolving network issues.,0,0,1,College Education in Technology
+Candidate_024,TSA,Investigates technical problems.,0,0,1,College Education in Technology
+Candidate_024,TSA,Supports software installation and configuration.,0,0,1,College Education in Technology
+Candidate_024,TSA,Diagnoses hardware-related problems,0,0,1,College Education in Technology
+Candidate_024,TSA,Acts as an expert for technology.,0,0,1,College Education in Technology
+Candidate_024,BOS,Inputs and maintains data accurately.,1,1,1,College Education in Management
+Candidate_024,BOS,Verifies and processes documents.,1,1,1,College Education in Management
+Candidate_024,BOS,Compiles and prepares reports.,1,1,1,College Education in Management
+Candidate_024,BOS,Audits records or tickets.,1,1,1,College Education in Management
+Candidate_024,BOS,Updates workforce scheduling tools.,1,1,1,College Education in Management
+Candidate_024,BOS,Organizes transactions and operations.,1,1,1,College Education in Management
+Candidate_025,CSR,Handles customer inquiries.,2,2,1,College Education in Communication
+Candidate_025,CSR,Responds to customer concerns swiftly.,2,2,1,College Education in Communication
+Candidate_025,CSR,Retains customers by resolving issues.,2,2,1,College Education in Communication
+Candidate_025,CSR,Addresses processes clearly.,2,2,1,College Education in Communication
+Candidate_025,CSR,Manages requests with patience and care,2,2,1,College Education in Communication
+Candidate_025,CSR,Supports confidentiality.,2,2,1,College Education in Communication
+Candidate_025,TSA,Provides basic troubleshooting,2,2,2,College Education in Technology
+Candidate_025,TSA,Assists in resolving network issues.,2,2,2,College Education in Technology
+Candidate_025,TSA,Investigates technical problems.,2,2,2,College Education in Technology
+Candidate_025,TSA,Supports software installation and configuration.,2,2,2,College Education in Technology
+Candidate_025,TSA,Diagnoses hardware-related problems,2,2,2,College Education in Technology
+Candidate_025,TSA,Acts as an expert for technology.,2,2,2,College Education in Technology
+Candidate_025,BOS,Inputs and maintains data accurately.,2,1,2,College Education in Management
+Candidate_025,BOS,Verifies and processes documents.,2,1,2,College Education in Management
+Candidate_025,BOS,Compiles and prepares reports.,2,1,2,College Education in Management
+Candidate_025,BOS,Audits records or tickets.,2,1,2,College Education in Management
+Candidate_025,BOS,Updates workforce scheduling tools.,2,1,2,College Education in Management
+Candidate_025,BOS,Organizes transactions and operations.,2,1,2,College Education in Management
+Candidate_026,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_026,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_026,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_026,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_026,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_026,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_026,TSA,Provides basic troubleshooting,2,2,2,College Education in Technology
+Candidate_026,TSA,Assists in resolving network issues.,2,2,2,College Education in Technology
+Candidate_026,TSA,Investigates technical problems.,2,2,2,College Education in Technology
+Candidate_026,TSA,Supports software installation and configuration.,2,2,2,College Education in Technology
+Candidate_026,TSA,Diagnoses hardware-related problems,2,2,2,College Education in Technology
+Candidate_026,TSA,Acts as an expert for technology.,2,2,2,College Education in Technology
+Candidate_026,BOS,Inputs and maintains data accurately.,1,1,1,College Education in Management
+Candidate_026,BOS,Verifies and processes documents.,1,1,1,College Education in Management
+Candidate_026,BOS,Compiles and prepares reports.,1,1,1,College Education in Management
+Candidate_026,BOS,Audits records or tickets.,1,1,1,College Education in Management
+Candidate_026,BOS,Updates workforce scheduling tools.,1,1,1,College Education in Management
+Candidate_026,BOS,Organizes transactions and operations.,1,1,1,College Education in Management
+Candidate_027,CSR,Handles customer inquiries.,1,1,2,College Education in Communication
+Candidate_027,CSR,Responds to customer concerns swiftly.,1,1,2,College Education in Communication
+Candidate_027,CSR,Retains customers by resolving issues.,1,1,2,College Education in Communication
+Candidate_027,CSR,Addresses processes clearly.,1,1,2,College Education in Communication
+Candidate_027,CSR,Manages requests with patience and care,1,1,2,College Education in Communication
+Candidate_027,CSR,Supports confidentiality.,1,1,2,College Education in Communication
+Candidate_027,TSA,Provides basic troubleshooting,1,0,1,College Education in Technology
+Candidate_027,TSA,Assists in resolving network issues.,1,0,1,College Education in Technology
+Candidate_027,TSA,Investigates technical problems.,1,0,1,College Education in Technology
+Candidate_027,TSA,Supports software installation and configuration.,1,0,1,College Education in Technology
+Candidate_027,TSA,Diagnoses hardware-related problems,1,0,1,College Education in Technology
+Candidate_027,TSA,Acts as an expert for technology.,1,0,1,College Education in Technology
+Candidate_027,BOS,Inputs and maintains data accurately.,2,2,2,College Education in Management
+Candidate_027,BOS,Verifies and processes documents.,2,2,2,College Education in Management
+Candidate_027,BOS,Compiles and prepares reports.,2,2,2,College Education in Management
+Candidate_027,BOS,Audits records or tickets.,2,2,2,College Education in Management
+Candidate_027,BOS,Updates workforce scheduling tools.,2,2,2,College Education in Management
+Candidate_027,BOS,Organizes transactions and operations.,2,2,2,College Education in Management
+Candidate_028,CSR,Handles customer inquiries.,2,1,2,College Education in Communication
+Candidate_028,CSR,Responds to customer concerns swiftly.,2,1,2,College Education in Communication
+Candidate_028,CSR,Retains customers by resolving issues.,2,1,2,College Education in Communication
+Candidate_028,CSR,Addresses processes clearly.,2,1,2,College Education in Communication
+Candidate_028,CSR,Manages requests with patience and care,2,1,2,College Education in Communication
+Candidate_028,CSR,Supports confidentiality.,2,1,2,College Education in Communication
+Candidate_028,TSA,Provides basic troubleshooting,0,1,0,College Education in Technology
+Candidate_028,TSA,Assists in resolving network issues.,0,1,0,College Education in Technology
+Candidate_028,TSA,Investigates technical problems.,0,1,0,College Education in Technology
+Candidate_028,TSA,Supports software installation and configuration.,0,1,0,College Education in Technology
+Candidate_028,TSA,Diagnoses hardware-related problems,0,1,0,College Education in Technology
+Candidate_028,TSA,Acts as an expert for technology.,0,1,0,College Education in Technology
+Candidate_028,BOS,Inputs and maintains data accurately.,2,2,2,College Education in Management
+Candidate_028,BOS,Verifies and processes documents.,2,2,2,College Education in Management
+Candidate_028,BOS,Compiles and prepares reports.,2,2,2,College Education in Management
+Candidate_028,BOS,Audits records or tickets.,2,2,2,College Education in Management
+Candidate_028,BOS,Updates workforce scheduling tools.,2,2,2,College Education in Management
+Candidate_028,BOS,Organizes transactions and operations.,2,2,2,College Education in Management
+Candidate_029,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_029,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_029,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_029,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_029,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_029,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_029,TSA,Provides basic troubleshooting,1,0,1,College Education in Technology
+Candidate_029,TSA,Assists in resolving network issues.,1,0,1,College Education in Technology
+Candidate_029,TSA,Investigates technical problems.,1,0,1,College Education in Technology
+Candidate_029,TSA,Supports software installation and configuration.,1,0,1,College Education in Technology
+Candidate_029,TSA,Diagnoses hardware-related problems,1,0,1,College Education in Technology
+Candidate_029,TSA,Acts as an expert for technology.,1,0,1,College Education in Technology
+Candidate_029,BOS,Inputs and maintains data accurately.,1,1,1,College Education in Management
+Candidate_029,BOS,Verifies and processes documents.,1,1,1,College Education in Management
+Candidate_029,BOS,Compiles and prepares reports.,1,1,1,College Education in Management
+Candidate_029,BOS,Audits records or tickets.,1,1,1,College Education in Management
+Candidate_029,BOS,Updates workforce scheduling tools.,1,1,1,College Education in Management
+Candidate_029,BOS,Organizes transactions and operations.,1,1,1,College Education in Management
+Candidate_030,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_030,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_030,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_030,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_030,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_030,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_030,TSA,Provides basic troubleshooting,1,1,0,College Education in Technology
+Candidate_030,TSA,Assists in resolving network issues.,1,1,0,College Education in Technology
+Candidate_030,TSA,Investigates technical problems.,1,1,0,College Education in Technology
+Candidate_030,TSA,Supports software installation and configuration.,1,1,0,College Education in Technology
+Candidate_030,TSA,Diagnoses hardware-related problems,1,1,0,College Education in Technology
+Candidate_030,TSA,Acts as an expert for technology.,1,1,0,College Education in Technology
+Candidate_030,BOS,Inputs and maintains data accurately.,1,1,1,College Education in Management
+Candidate_030,BOS,Verifies and processes documents.,1,1,1,College Education in Management
+Candidate_030,BOS,Compiles and prepares reports.,1,1,1,College Education in Management
+Candidate_030,BOS,Audits records or tickets.,1,1,1,College Education in Management
+Candidate_030,BOS,Updates workforce scheduling tools.,1,1,1,College Education in Management
+Candidate_030,BOS,Organizes transactions and operations.,1,1,1,College Education in Management
+Candidate_031,CSR,Handles customer inquiries.,1,2,2,College Education in Communication
+Candidate_031,CSR,Responds to customer concerns swiftly.,1,2,2,College Education in Communication
+Candidate_031,CSR,Retains customers by resolving issues.,1,2,2,College Education in Communication
+Candidate_031,CSR,Addresses processes clearly.,1,2,2,College Education in Communication
+Candidate_031,CSR,Manages requests with patience and care,1,2,2,College Education in Communication
+Candidate_031,CSR,Supports confidentiality.,1,2,2,College Education in Communication
+Candidate_031,TSA,Provides basic troubleshooting,1,1,0,College Education in Technology
+Candidate_031,TSA,Assists in resolving network issues.,1,1,0,College Education in Technology
+Candidate_031,TSA,Investigates technical problems.,1,1,0,College Education in Technology
+Candidate_031,TSA,Supports software installation and configuration.,1,1,0,College Education in Technology
+Candidate_031,TSA,Diagnoses hardware-related problems,1,1,0,College Education in Technology
+Candidate_031,TSA,Acts as an expert for technology.,1,1,0,College Education in Technology
+Candidate_031,BOS,Inputs and maintains data accurately.,2,2,2,College Education in Management
+Candidate_031,BOS,Verifies and processes documents.,2,2,2,College Education in Management
+Candidate_031,BOS,Compiles and prepares reports.,2,2,2,College Education in Management
+Candidate_031,BOS,Audits records or tickets.,2,2,2,College Education in Management
+Candidate_031,BOS,Updates workforce scheduling tools.,2,2,2,College Education in Management
+Candidate_031,BOS,Organizes transactions and operations.,2,2,2,College Education in Management
+Candidate_032,CSR,Handles customer inquiries.,2,2,2,College Education in Communication
+Candidate_032,CSR,Responds to customer concerns swiftly.,2,2,2,College Education in Communication
+Candidate_032,CSR,Retains customers by resolving issues.,2,2,2,College Education in Communication
+Candidate_032,CSR,Addresses processes clearly.,2,2,2,College Education in Communication
+Candidate_032,CSR,Manages requests with patience and care,2,2,2,College Education in Communication
+Candidate_032,CSR,Supports confidentiality.,2,2,2,College Education in Communication
+Candidate_032,TSA,Provides basic troubleshooting,2,1,2,College Education in Technology
+Candidate_032,TSA,Assists in resolving network issues.,2,1,2,College Education in Technology
+Candidate_032,TSA,Investigates technical problems.,2,1,2,College Education in Technology
+Candidate_032,TSA,Supports software installation and configuration.,2,1,2,College Education in Technology
+Candidate_032,TSA,Diagnoses hardware-related problems,2,1,2,College Education in Technology
+Candidate_032,TSA,Acts as an expert for technology.,2,1,2,College Education in Technology
+Candidate_032,BOS,Inputs and maintains data accurately.,1,1,1,College Education in Management
+Candidate_032,BOS,Verifies and processes documents.,1,1,1,College Education in Management
+Candidate_032,BOS,Compiles and prepares reports.,1,1,1,College Education in Management
+Candidate_032,BOS,Audits records or tickets.,1,1,1,College Education in Management
+Candidate_032,BOS,Updates workforce scheduling tools.,1,1,1,College Education in Management
+Candidate_032,BOS,Organizes transactions and operations.,1,1,1,College Education in Management
+Candidate_033,CSR,Handles customer inquiries.,2,1,2,College Education in Communication
+Candidate_033,CSR,Responds to customer concerns swiftly.,2,1,2,College Education in Communication
+Candidate_033,CSR,Retains customers by resolving issues.,2,1,2,College Education in Communication
+Candidate_033,CSR,Addresses processes clearly.,2,1,2,College Education in Communication
+Candidate_033,CSR,Manages requests with patience and care,2,1,2,College Education in Communication
+Candidate_033,CSR,Supports confidentiality.,2,1,2,College Education in Communication
+Candidate_033,TSA,Provides basic troubleshooting,2,2,2,College Education in Technology
+Candidate_033,TSA,Assists in resolving network issues.,2,2,2,College Education in Technology
+Candidate_033,TSA,Investigates technical problems.,2,2,2,College Education in Technology
+Candidate_033,TSA,Supports software installation and configuration.,2,2,2,College Education in Technology
+Candidate_033,TSA,Diagnoses hardware-related problems,2,2,2,College Education in Technology
+Candidate_033,TSA,Acts as an expert for technology.,2,2,2,College Education in Technology
+Candidate_033,BOS,Inputs and maintains data accurately.,1,1,1,College Education in Management
+Candidate_033,BOS,Verifies and processes documents.,1,1,1,College Education in Management
+Candidate_033,BOS,Compiles and prepares reports.,1,1,1,College Education in Management
+Candidate_033,BOS,Audits records or tickets.,1,1,1,College Education in Management
+Candidate_033,BOS,Updates workforce scheduling tools.,1,1,1,College Education in Management
+Candidate_033,BOS,Organizes transactions and operations.,1,1,1,College Education in Management
