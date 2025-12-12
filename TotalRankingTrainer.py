@@ -19,7 +19,7 @@ job_descriptions = []; #array String
 job_educations = []; #array String
 relevance_labels = None; #2D array of relevance labels per resume
 
-MODEL_PATH = "HyScreen_LSA_SBERT_v2.model"
+MODEL_PATH = "HyScreen_LSA_SBERT_v3.model"
 
 # Read JSON input from stdin to get Input Resume and Jobs =============================
 data = sys.stdin.read().strip()
@@ -47,19 +47,23 @@ relevance_labels = relevance_labels.reshape((len(resumes), len(job_descriptions)
 
 
 ## Run LSA and SBERT for Resumes and Jobs =====================================
-InpResLSA.run(resumes);
+print("\n>LSA embeddings for resumes:");
+InpResLSA.run(resumes, "TRAIN");
 #InpJobSBERT.run(job_descriptions);
 
 # SBERT embeddings for job descriptions
-InpJobSBERT.run(job_descriptions);
+print("\n>SBERT embeddings for job descriptions:");
+InpJobSBERT.run(job_descriptions, "TRAIN", "JOB_DESCRIPTONS");
 desc_embeddings = InpJobSBERT.embeddings.copy();
 
 # SBERT embeddings for job roles
-InpJobSBERT.run(job_roles);
+print("\n>SBERT embeddings for job roles:");
+InpJobSBERT.run(job_roles, "TRAIN", "JOB_ROLES");
 role_embeddings = InpJobSBERT.embeddings.copy();
 
 # SBERT embeddings for job educations
-InpJobSBERT.run(job_educations);
+print("\n>SBERT embeddings for job educations:");
+InpJobSBERT.run(job_educations, "TRAIN", "JOB_EDUCATION");
 educ_embeddings = InpJobSBERT.embeddings.copy();
 
 print("\n\n>Total Ranking Imports done.");
@@ -91,16 +95,12 @@ for i, job_desc in enumerate(job_descriptions):
 	lsa_scores = cosine_similarity(InpResLSA.lsa_matrix, job_vec_lsa).flatten();
 
 	# SBERT score vector for resumes
-	#job_vec_sbert = InpJobSBERT.embeddings[i].reshape(1, -1);
-	#sbert_scores = np.tile(InpJobSBERT.embeddings[i, 0], len(resumes)) 
-
 	sbert_role_score = np.tile(role_embeddings[i, 0], len(resumes));	
 	sbert_desc_score = np.tile(desc_embeddings[i, 0], len(resumes));
 	sbert_educ_score = np.tile(educ_embeddings[i, 0], len(resumes));
 
 	# combine features per resume
 	for j in range(len(resumes)):
-		#X.append([lsa_scores[j], sbert_scores[j]]);
 		X.append([ lsa_scores[j], sbert_role_score[j], sbert_desc_score[j], sbert_educ_score[j] ]);
 		y.append(relevance_labels[j][i]);
 		qids.append(i);  # job i is the "query group"

@@ -1,4 +1,4 @@
-print("\n\n>Mission start.");
+print("\n>Mission start.");
 
 import os 
 import csv
@@ -26,15 +26,13 @@ for file in os.listdir(dir+"/Resumes/"):
 		resumes.append(dir+"/Resumes/"+file);
 
 #Display Resume
-print("\n>Scanned Resumes:\nIndex#\tDocument Name");
+print("\nScanned Resumes:\nIndex#\tDocument Name");
 for resume in resumes:	
 	#print(resumes.index(resume),"\t",resume);
-	print(resumes.index(resume),"\t",os.path.basename(resume));
-print("\n");	
-
+	print(resumes.index(resume)+1,"\t",os.path.basename(resume));
+print("");
 
 ## Input Jobs and Relevance Labels ===========================================
-
 #with open(dir+"/job_descriptions.csv", "r", encoding="utf-8") as f:
 with open(dir+"/Training_Data.csv", "r", encoding="utf-8") as f:
 	reader = csv.reader(f);	
@@ -53,17 +51,13 @@ with open(dir+"/Training_Data.csv", "r", encoding="utf-8") as f:
 			relevance_labels.append(
 			    int(round( ((float(row[3].strip()) + float(row[4].strip()) + float(row[5].strip())) / 3) * 10) )
 			)
-			
-
 
 # Display jobs:
-print("\nJob Role and Description list:");
+print("Job Role and Description list:");
 for i in range(len(job_roles)):
 	print(f"{job_roles[i]} - {job_descriptions[i]} - {job_educations[i]}");
-print("\n");
 
 
-##TODO
 # Create JSON payload for TotalRankingTrainer
 payload = {
 	"resumes": resumes,
@@ -78,12 +72,14 @@ payload = {
 # Call the trainer and pass JSON through stdin
 trainer_path = os.path.join(dir, "TotalRankingTrainer.py");
 
-print("\n>Launching TotalRankingTrainer.py ...\n");
+print("\n>Launching TotalRankingTrainer.py ...");
 
 result = subprocess.run(
     ["python3", trainer_path],
-    input=json.dumps(payload),
+    input=json.dumps(payload),	
     text=True,
+    encoding="utf-8",
+    errors="replace",
     capture_output=True
 );
 # Display trainer output

@@ -21,7 +21,7 @@ job_roles = []; #array String
 job_descriptions = []; #array String 
 job_educations = []; #array String
 
-MODEL_PATH = "HyScreen_LSA_SBERT_v2.model"
+MODEL_PATH = "HyScreen_LSA_SBERT_v3.model"
 
 # Read JSON input from stdin to get Input Resume and Jobs =============================
 data = sys.stdin.read().strip()
@@ -43,29 +43,31 @@ if data:
 
 
 # Display jobs:
-print("\nJob list:");
-for sentence in job_roles:
-	print(sentence);
-print("\n");
-
+print("Job Role and Description list:");
+for i in range(len(job_roles)):
+	print(f"{job_roles[i]} - {job_descriptions[i]} - {job_educations[i]}");
 
 ## Run LSA and SBERT for Resumes and Jobs =====================================
-InpResLSA.run(resumes);
+print("\n>LSA embeddings for resumes:");
+InpResLSA.run(resumes, "");
 #InpJobSBERT.run(job_descriptions);
 
 # SBERT embeddings for job descriptions
-InpJobSBERT.run(job_descriptions);
+print("\n>SBERT embeddings for job descriptions:");
+InpJobSBERT.run(job_descriptions, "", "JOB_DESCRIPTONS");
 desc_embeddings = InpJobSBERT.embeddings.copy();
 
 # SBERT embeddings for job roles
-InpJobSBERT.run(job_roles);
+print("\n>SBERT embeddings for job roles:");
+InpJobSBERT.run(job_roles, "", "JOB_ROLES");
 role_embeddings = InpJobSBERT.embeddings.copy();
 
 # SBERT embeddings for job educations
-InpJobSBERT.run(job_educations);
+print("\n>SBERT embeddings for job educations:");
+InpJobSBERT.run(job_educations, "", "JOB_EDUCATION");
 educ_embeddings = InpJobSBERT.embeddings.copy();
 
-print("\n\n>Total Ranking Imports done.");
+print("\n \n>Total Ranking Imports done.");
 
 
 print("\n>Starting Matching and Ranking module. =======================================");
@@ -117,8 +119,8 @@ preds = ranker.predict(X);
 print("\n\n> Final Ranking ======================================================");
 
 # Show ranked resumes per job description
-for i, job_role in enumerate(job_roles):
-	print(f"\n- Ranking for job: {job_role}");
+for i in range(len(job_descriptions)):
+	print(f"\n- Ranking for job: {job_roles[i]} - {job_descriptions[i]} - {job_educations[i]}");
 
 	# get predictions for resumes of this job
 	mask = qids == i;
@@ -136,93 +138,64 @@ for i, job_role in enumerate(job_roles):
 		#print(f"#{idx} - {os.path.basename(resume):<40}  -  {score:>8.4f}")
 
 
+
+
+#Saving Output =========================================
 print("\n\n> Outputing to database. ");
 
 batch_no = int(time.time());
-conn = sqlite3.connect("HyScreenOutput.db");
+conn = sqlite3.connect("Result.db");
 cursor = conn.cursor();
 
 # Enable foreign key checks
 cursor.execute("PRAGMA foreign_keys = ON;");
 
-# Drop existing tables
-cursor.execute("DROP TABLE IF EXISTS TBL_Ranking;");
-cursor.execute("DROP TABLE IF EXISTS TBL_Job;");
-cursor.execute("DROP TABLE IF EXISTS TBL_Candidate;");
-print("Dropped existing tables.");
-
-# Create tables
-cursor.execute("""
-CREATE TABLE TBL_Candidate (
-    Resume TEXT PRIMARY KEY
-);
-""");
-
-cursor.execute("""
-CREATE TABLE TBL_Job (
-    Role TEXT NOT NULL,
-    Description TEXT NOT NULL,
-    Education TEXT NOT NULL,
-    PRIMARY KEY (Role, Description, Education)
-);
-""");
-
-cursor.execute("""
-CREATE TABLE TBL_Ranking (
-    BatchNo INTEGER,
-    Resume TEXT,
-    Role TEXT,
-    Description TEXT,
-    Education TEXT,
-    Score REAL,
-    PRIMARY KEY (BatchNo, Resume, Role, Description),
-    FOREIGN KEY (Resume) REFERENCES TBL_Candidate(Resume),
-    FOREIGN KEY (Role, Description, Education) REFERENCES TBL_Job(Role, Description, Education)
-);
-
-""")
-print("Created tables.");
+#  Insert batch number
+print(f"\nInserting batch no: {batch_no}");
+try:
+	cursor.execute("INSERT INTO Batch (BATCH_NO) VALUES (?)", (batch_no,));	
+except sqlite3.Error as e:
+	print(f"Failed to insert resume {batch_no}: {e}");
 
 #  Insert resumes 
 print("\nInserting resumes:");
 for resume in resumes:
 	try:
-		cursor.execute("INSERT OR IGNORE INTO TBL_Candidate (Resume) VALUES (?)", (resume,));
+		cursor.execute("INSERT INTO Candidate (RESUME, BATCH_NO) VALUES (?, ?)", (resume, batch_no));
 		print(f"Inserted resume: {resume}");
 	except sqlite3.Error as e:
 		print(f"Failed to insert resume {resume}: {e}");
 
 #  Insert jobs 
 print("\nInserting jobs:");
-if len(job_roles) != len(job_descriptions):
-	print("ERROR: roles and descriptions length mismatch!");
 for role, desc, educ in zip(job_roles, job_descriptions, job_educations):
-	try:
-		cursor.execute("INSERT OR IGNORE INTO TBL_Job (Role, Description, Education) VALUES (?, ?, ?)", (role, desc, educ));
-		print(f"Inserted job: Role='{role}' | Description='{desc}' | Education ='{educ}'");
-	except sqlite3.Error as e:
-		print(f"Failed to insert job Role='{role}': {e}");
+    try:
+        cursor.execute("INSERT OR IGNORE INTO Job_Role (JOB_ROLE, JOB_EDUCATION, BATCH_NO) VALUES (?, ?, ?)" , (role, educ, batch_no));
+        cursor.execute("INSERT INTO Job_Description (JOB_ROLE, JOB_DESCRIPTION, BATCH_NO) VALUES (?, ?, ?)", (role, desc, batch_no));
+        print(f"Inserted: Role='{role}' | Description='{desc}' | Education='{educ}'")
+    except sqlite3.Error as e:
+        print(f"Failed to insert Role='{role}': {e}");
 
-#  Insert ranking results 
 print("\nInserting rankings:");
-for i, desc in enumerate(job_descriptions):
-	mask = qids == i;
-	scores = preds[mask];
-	role = job_roles[i];
-	educ = job_educations[i];
-	for resume, score in zip(resumes, scores):
-		try:
-			cursor.execute("""
-				INSERT OR REPLACE INTO TBL_Ranking 
-				(BatchNo, Resume, Role, Description, Score, Education) 
-				VALUES (?, ?, ?, ?, ?, ?)
-			""", (batch_no, resume, role, desc, float(score), educ));
-			print(f"Inserted ranking: Resume='{resume}' | Role='{role}' | Score={score:.4f}");
-		except sqlite3.Error as e:
-			print(f"Failed to insert ranking Resume='{resume}' Role='{role}': {e}");
+for i in range(len(job_descriptions)):
+    mask = qids == i;
+    scores = preds[mask];
+    role = job_roles[i];
+    desc = job_descriptions[i];
+
+    for resume, score in zip(resumes, scores):
+        try:
+            #cursor.execute("INSERT OR REPLACE INTO Score (BATCH_NO, JOB_ROLE, JOB_DESCRIPTION, RESUME, SCORE) VALUES (?, ?, ?, ?, ?);",
+            #               (batch_no, role, desc, resume, float(score)));
+            cursor.execute("INSERT OR REPLACE INTO Score (RESUME, BATCH_NO, JOB_ROLE, JOB_DESCRIPTION, SCORE) VALUES (?, ?, ?, ?, ?);",
+                            (resume, batch_no, role, desc, float(score)));
+            print(f"Inserted ranking: Resume='{resume}' | Role='{role}' | Score={score:.4f}");
+        except sqlite3.Error as e:
+            print(f"Failed to insert ranking Resume='{resume}' Role='{role} Score={score:.4f}': {e}");
 
 conn.commit();
 conn.close();
+
 
 
 #Percentages =========================
